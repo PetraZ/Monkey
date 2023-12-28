@@ -5,6 +5,9 @@ import (
 	"github.com/PetraZ/monkey/token"
 )
 
+// What is a lexer?
+// A lexer or a tokenizer - takes in a string as the input(source code) and emits tokens that
+// represents the source code.
 type Lexer struct {
 	input string
 	// current position that points to char
